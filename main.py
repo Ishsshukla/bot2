@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 
-response = requests.get('https://workshala-7v7q.onrender.com/internshipData')
+response = requests.get('https://mocki.io/v1/90b4bcc2-bbdb-4c7c-8d38-7b25e8ad6645')
 data = response.json()  
 df = pd.DataFrame(data)
 df_copy1=df
